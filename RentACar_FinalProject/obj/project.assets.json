@@ -7338,11 +7338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI NOTEBOOK\\Desktop\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\RentACar_FinalProject.csproj",
+      "projectUniqueName": "C:\\Ismayil\\PROJECTS\\StepIT\\5.Desktop\\WPF\\RentACar_FinalProject\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\RentACar_FinalProject.csproj",
       "projectName": "RentACar_FinalProject",
-      "projectPath": "C:\\Users\\MSI NOTEBOOK\\Desktop\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\RentACar_FinalProject.csproj",
+      "projectPath": "C:\\Ismayil\\PROJECTS\\StepIT\\5.Desktop\\WPF\\RentACar_FinalProject\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\RentACar_FinalProject.csproj",
       "packagesPath": "C:\\Users\\MSI NOTEBOOK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI NOTEBOOK\\Desktop\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\obj\\",
+      "outputPath": "C:\\Ismayil\\PROJECTS\\StepIT\\5.Desktop\\WPF\\RentACar_FinalProject\\RentACar_FinalProject_WPF\\RentACar_FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI NOTEBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",

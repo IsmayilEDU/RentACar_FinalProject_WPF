@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes.DatabaseClasses;
+using RentACar_FinalProject.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +24,7 @@ namespace RentACar_FinalProject.Views
         public LoginView()
         {
             InitializeComponent();
+            DataContext = new LoginViewModel();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

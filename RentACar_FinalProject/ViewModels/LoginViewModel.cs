@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes.DatabaseClasses;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,11 @@ namespace RentACar_FinalProject.ViewModels
 {
     internal class LoginViewModel
     {
+        public LoginViewModel()
+        {
+            
+        }
+
+        
     }
 }
