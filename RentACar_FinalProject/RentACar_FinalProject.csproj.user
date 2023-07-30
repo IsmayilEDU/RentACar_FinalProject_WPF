@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Templates\UserControls\ProgramLogo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Login\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Owner\Pages\AvailableCarsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Owner\Pages\BusyCarsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Owner\Windows\OwnerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Register\RegisterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SharedPages\ProfileInfoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Templates\StaticVariables\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\StaticVariables\Fonts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\Button\sForBack_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\Page\sPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\TextBlock\sCreatedBy_TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\TextBlock\sProperty_TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\TextBlock\sValue_TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\Window\sHorizontal_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\TextBlock\sMenuName_TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\Label\sProgramName_Label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\RadioButton\sRadioButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\Styles\Window\sVertical_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\UserControls\ProgramLogo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Login\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Owner\Pages\AvailableCarsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Owner\Pages\BusyCarsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Owner\Windows\OwnerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Register\RegisterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SharedPages\ProfileInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

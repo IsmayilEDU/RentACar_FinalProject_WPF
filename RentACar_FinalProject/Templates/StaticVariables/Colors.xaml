@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Color of main background-->
+    <SolidColorBrush x:Key="cBackground">#FFFFFF</SolidColorBrush>
+    
+    <!--Color of buttons background-->
+    <SolidColorBrush x:Key="cText">#2d2f48</SolidColorBrush>
+    
+    <!--Color of mouse over-->
+    <SolidColorBrush x:Key="cBackgroundOfTextBox">#FFD3D9FF</SolidColorBrush>
+    
+    <!--Color of MainButton-->
+    <SolidColorBrush x:Key="cButton">#4caa98</SolidColorBrush>
+    
+    <!--Color of RedMainButton-->
+    <SolidColorBrush x:Key="cRedButton">#ff6a63</SolidColorBrush>
+    
+    
+    <!--Color of MainBackground-->
+    <SolidColorBrush x:Key="cMenuBackground">#5E7DFF</SolidColorBrush>
+    
+    <!--Color of Selected-->
+    <SolidColorBrush x:Key="cSelectedMenuItem">#E0E2FB</SolidColorBrush>
+    
+    
+    
+</ResourceDictionary>

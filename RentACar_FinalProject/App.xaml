@@ -1,0 +1,57 @@
+﻿<Application x:Class="RentACar_FinalProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RentACar_FinalProject"
+             StartupUri="\Views\Owner\Windows\OwnerView.xaml"
+             Startup="Application_Startup">
+    
+    <Application.Resources>
+
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+
+                <!--#region Static variables-->
+                <ResourceDictionary Source="\Templates\StaticVariables\Colors.xaml" />
+                <ResourceDictionary Source="\Templates\StaticVariables\Fonts.xaml" />
+                <!--#endregion-->
+                
+                
+                <!--#region Styles-->
+                
+                <!--Styles of Button-->
+                <ResourceDictionary Source="\Templates\Styles\Button\sForBack_Button.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\Button\ButtonWithIcon\sButtonText.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\Button\ButtonWithIcon\sCircleButton.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\Button\ButtonWithIcon\sIcon.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\Button\ButtonWithIcon\sRectangleButton.xaml" />
+
+                <!--Styles of Label-->
+                <ResourceDictionary Source="\Templates\Styles\Label\sProgramName_Label.xaml" />
+                
+                <!--Styles of Page-->
+                <ResourceDictionary Source="\Templates\Styles\Page\sPage.xaml" />
+                
+                <!--Styles of RadioButton-->
+                <ResourceDictionary Source="\Templates\Styles\RadioButton\sRadioButton.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml" />
+                
+                <!--Styles of TextBlock-->
+                <ResourceDictionary Source="\Templates\Styles\TextBlock\sCreatedBy_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\TextBlock\sMenuName_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\TextBlock\sProperty_TextBlock.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\TextBlock\sValue_TextBlock.xaml" />
+                
+                <!--Styles of Window-->
+                <ResourceDictionary Source="\Templates\Styles\Window\sHorizontal_Window.xaml" />
+                <ResourceDictionary Source="\Templates\Styles\Window\sVertical_Window.xaml" />
+                
+                
+                
+                <!--#endregion-->
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

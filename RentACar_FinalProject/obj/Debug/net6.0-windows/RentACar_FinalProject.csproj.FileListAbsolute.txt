@@ -1,0 +1,146 @@
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.exe
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.deps.json
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.runtimeconfig.json
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.pdb
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\CommonServiceLocator.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.Extras.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.Platform.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\System.Windows.Interactivity.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.AssemblyReference.cache
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\StaticVariables\Colors.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\StaticVariables\Fonts.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sButtonText.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sCircleButton.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sIcon.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sRectangleButton.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\sForBack_Button.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Label\sProgramName_Label.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Page\sPage.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\RadioButton\sMenuItem_RadioButton.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\RadioButton\sRadioButton.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sCreatedBy_TextBlock.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sMenuName_TextBlock.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sProperty_TextBlock.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sValue_TextBlock.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Window\sHorizontal_Window.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Window\sVertical_Window.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\AvailableCarsPage.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\BusyCarsPage.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Windows\OwnerView.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Register\RegisterView.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\SharedPages\ProfileInfoPage.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject_MarkupCompile.cache
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject_MarkupCompile.lref
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\App.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\AvailableCarsPage.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\BusyCarsPage.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Windows\OwnerView.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Register\RegisterView.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\SharedPages\ProfileInfoPage.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.g.resources
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.AssemblyInfoInputs.cache
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.AssemblyInfo.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.CoreCompileInputs.cache
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.CopyComplete
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\refint\RentACar_FinalProject.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.pdb
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.genruntimeconfig.cache
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\ref\RentACar_FinalProject.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.exe
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.deps.json
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.runtimeconfig.json
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.pdb
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\CommonServiceLocator.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.Extras.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.Platform.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\System.Windows.Interactivity.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.AssemblyReference.cache
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\StaticVariables\Colors.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\StaticVariables\Fonts.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sButtonText.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sCircleButton.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sIcon.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\ButtonWithIcon\sRectangleButton.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Button\sForBack_Button.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Label\sProgramName_Label.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Page\sPage.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\RadioButton\sMenuItem_RadioButton.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\RadioButton\sRadioButton.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sCreatedBy_TextBlock.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sMenuName_TextBlock.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sProperty_TextBlock.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\TextBlock\sValue_TextBlock.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Window\sHorizontal_Window.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Window\sVertical_Window.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\AvailableCarsPage.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\BusyCarsPage.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Windows\OwnerView.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Register\RegisterView.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\SharedPages\ProfileInfoPage.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject_MarkupCompile.cache
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject_MarkupCompile.lref
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\App.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\AvailableCarsPage.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Pages\BusyCarsPage.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Owner\Windows\OwnerView.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Register\RegisterView.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\SharedPages\ProfileInfoPage.baml
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.g.resources
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.AssemblyInfoInputs.cache
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.AssemblyInfo.cs
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.csproj.CopyComplete
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\refint\RentACar_FinalProject.dll
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.pdb
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.genruntimeconfig.cache
+C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\ref\RentACar_FinalProject.dll

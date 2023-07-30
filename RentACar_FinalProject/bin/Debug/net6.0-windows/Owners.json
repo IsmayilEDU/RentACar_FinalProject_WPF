@@ -1,0 +1,284 @@
+[
+  {
+    "Cars": [
+      {
+        "ID": "c510a367-996a-416b-a785-6b39552a15d1",
+        "IsAvaible": true,
+        "Make": "BMW",
+        "Model": "M6",
+        "Year": 2012,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 100,
+        "CustomerName": null
+      },
+      {
+        "ID": "e3e6c88d-6579-42b0-922d-2c548a52a9a2",
+        "IsAvaible": true,
+        "Make": "Mercedes",
+        "Model": "C180",
+        "Year": 2015,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 80,
+        "CustomerName": null
+      },
+      {
+        "ID": "a7f42cb7-2001-4cba-ab5a-c7f92a28a982",
+        "IsAvaible": true,
+        "Make": "Kia",
+        "Model": "Rio",
+        "Year": 2020,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 120,
+        "CustomerName": null
+      },
+      {
+        "ID": "a79f5a7f-0549-4928-889a-cd6dd9482344",
+        "IsAvaible": true,
+        "Make": "Hyundai",
+        "Model": "Sonata",
+        "Year": 2012,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 70,
+        "CustomerName": null
+      },
+      {
+        "ID": "f904a7de-4814-4b1a-a20c-bdbb5d63c766",
+        "IsAvaible": true,
+        "Make": "Lada",
+        "Model": "Priora",
+        "Year": 2008,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 45,
+        "CustomerName": null
+      },
+      {
+        "ID": "75950f89-8924-414b-9a09-df6a7f197e86",
+        "IsAvaible": true,
+        "Make": "BMW",
+        "Model": "M3 turbo",
+        "Year": 2015,
+        "location": null,
+        "RentDayCount": 0,
+        "RentDayAmount": 150,
+        "CustomerName": null
+      },
+      {
+        "ID": "fe72d7ce-214b-4e41-a27a-b27d19c4bf49",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Vesta",
+        "Year": 2012,
+        "location": {
+          "Longitude": 40.5855,
+          "Latitude": 49.6317
+        },
+        "RentDayCount": 2,
+        "RentDayAmount": 100,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "0cb8b490-38ef-4b1a-8dc9-0c42e5cdde32",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Kalina",
+        "Year": 2015,
+        "location": {
+          "Longitude": 40.6879,
+          "Latitude": 46.3723
+        },
+        "RentDayCount": 3,
+        "RentDayAmount": 80,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "3631f377-5192-4f18-a7ba-5435cf22b965",
+        "IsAvaible": false,
+        "Make": "Kia",
+        "Model": "Rio",
+        "Year": 2020,
+        "location": {
+          "Longitude": 40.363,
+          "Latitude": 49.2737
+        },
+        "RentDayCount": 2,
+        "RentDayAmount": 120,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "3a9b19a5-d4e9-4735-8b62-da7fc9f8ef42",
+        "IsAvaible": false,
+        "Make": "Hyundai",
+        "Model": "Sonata",
+        "Year": 2012,
+        "location": {
+          "Longitude": 40.0394,
+          "Latitude": 48.9203
+        },
+        "RentDayCount": 70,
+        "RentDayAmount": 3,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "77714a96-a5ac-42cc-8edd-9f010638df88",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Priora",
+        "Year": 2008,
+        "location": {
+          "Longitude": 41.3643,
+          "Latitude": 48.5261
+        },
+        "RentDayCount": 4,
+        "RentDayAmount": 45,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "83c6a19b-aa34-4c45-81d8-6845072c9075",
+        "IsAvaible": false,
+        "Make": "BMW",
+        "Model": "M3 turbo",
+        "Year": 2015,
+        "location": {
+          "Longitude": 41.3643,
+          "Latitude": 48.5261
+        },
+        "RentDayCount": 5,
+        "RentDayAmount": 150,
+        "CustomerName": "huseyn"
+      }
+    ],
+    "RentalCars": [
+      {
+        "ID": "fe72d7ce-214b-4e41-a27a-b27d19c4bf49",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Vesta",
+        "Year": 2012,
+        "location": {
+          "Longitude": 40.5855,
+          "Latitude": 49.6317
+        },
+        "RentDayCount": 2,
+        "RentDayAmount": 100,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "0cb8b490-38ef-4b1a-8dc9-0c42e5cdde32",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Kalina",
+        "Year": 2015,
+        "location": {
+          "Longitude": 40.6879,
+          "Latitude": 46.3723
+        },
+        "RentDayCount": 3,
+        "RentDayAmount": 80,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "3631f377-5192-4f18-a7ba-5435cf22b965",
+        "IsAvaible": false,
+        "Make": "Kia",
+        "Model": "Rio",
+        "Year": 2020,
+        "location": {
+          "Longitude": 40.363,
+          "Latitude": 49.2737
+        },
+        "RentDayCount": 2,
+        "RentDayAmount": 120,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "3a9b19a5-d4e9-4735-8b62-da7fc9f8ef42",
+        "IsAvaible": false,
+        "Make": "Hyundai",
+        "Model": "Sonata",
+        "Year": 2012,
+        "location": {
+          "Longitude": 40.0394,
+          "Latitude": 48.9203
+        },
+        "RentDayCount": 70,
+        "RentDayAmount": 3,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "77714a96-a5ac-42cc-8edd-9f010638df88",
+        "IsAvaible": false,
+        "Make": "Lada",
+        "Model": "Priora",
+        "Year": 2008,
+        "location": {
+          "Longitude": 41.3643,
+          "Latitude": 48.5261
+        },
+        "RentDayCount": 4,
+        "RentDayAmount": 45,
+        "CustomerName": "huseyn"
+      },
+      {
+        "ID": "83c6a19b-aa34-4c45-81d8-6845072c9075",
+        "IsAvaible": false,
+        "Make": "BMW",
+        "Model": "M3 turbo",
+        "Year": 2015,
+        "location": {
+          "Longitude": 41.3643,
+          "Latitude": 48.5261
+        },
+        "RentDayCount": 5,
+        "RentDayAmount": 150,
+        "CustomerName": "huseyn"
+      }
+    ],
+    "OperationsOfBudget": [
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4781129+04:00",
+        "About": "Temir",
+        "IsExpense": true,
+        "Amount": 50
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4796907+04:00",
+        "About": "Icare",
+        "IsExpense": false,
+        "Amount": 60
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.479692+04:00",
+        "About": "Icare",
+        "IsExpense": false,
+        "Amount": 120
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4796923+04:00",
+        "About": "Temir",
+        "IsExpense": true,
+        "Amount": 120
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4796925+04:00",
+        "About": "Temir",
+        "IsExpense": true,
+        "Amount": 40
+      }
+    ],
+    "ID": "dc1e16b6-30ae-4424-a25a-f130af01db20",
+    "Username": "ismayil",
+    "Password": "ismayil",
+    "Card": {
+      "BankName": "Unibank",
+      "CardNumber": "1234567891234567",
+      "ExpirationDate": "2025-01-01T00:00:00",
+      "CVC": "987",
+      "Balance": 500
+    }
+  }
+]

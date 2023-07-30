@@ -1,0 +1,78 @@
+[
+  {
+    "HistoryOfCars": [
+      {
+        "CarID": "b9306796-486d-4e9a-8deb-ef39aa72d46b",
+        "Make": "Lada",
+        "Model": "Vesta",
+        "RentDayCount": 2
+      },
+      {
+        "CarID": "afd06752-96e5-4bd7-84b6-20e2d68dd9e9",
+        "Make": "Lada",
+        "Model": "Kalina",
+        "RentDayCount": 3
+      },
+      {
+        "CarID": "b61781a7-788f-4eeb-958a-42d4489f4c1f",
+        "Make": "Kia",
+        "Model": "Rio",
+        "RentDayCount": 2
+      },
+      {
+        "CarID": "44488c1c-d021-4eb5-808b-95f12c730615",
+        "Make": "Hyundai",
+        "Model": "Sonata",
+        "RentDayCount": 70
+      },
+      {
+        "CarID": "9a40e4ba-fbed-48bc-9802-8831422ae9fa",
+        "Make": "Lada",
+        "Model": "Priora",
+        "RentDayCount": 4
+      },
+      {
+        "CarID": "a8717f40-9ce5-495d-83ec-e363d8574bfd",
+        "Make": "BMW",
+        "Model": "M3 turbo",
+        "RentDayCount": 5
+      }
+    ],
+    "OperationsOfBudget": [
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4815661+04:00",
+        "About": "Arenda",
+        "IsExpense": true,
+        "Amount": 50
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4815666+04:00",
+        "About": "Blanasin artirilmasi",
+        "IsExpense": false,
+        "Amount": 100
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4815668+04:00",
+        "About": "Arenda",
+        "IsExpense": true,
+        "Amount": 50
+      },
+      {
+        "DateOfOccurrence": "2023-07-29T17:32:16.4815669+04:00",
+        "About": "Blanasin artirilmasi",
+        "IsExpense": false,
+        "Amount": 200
+      }
+    ],
+    "ID": "bc36e060-3c49-4c49-aff5-79e54ff37521",
+    "Username": "huseyn",
+    "Password": "huseyn",
+    "Card": {
+      "BankName": "ATB",
+      "CardNumber": "1234567891234567",
+      "ExpirationDate": "2025-02-02T00:00:00",
+      "CVC": "867",
+      "Balance": 1000
+    }
+  }
+]
