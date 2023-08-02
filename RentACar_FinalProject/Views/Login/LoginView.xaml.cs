@@ -32,11 +32,6 @@ namespace RentACar_FinalProject.Views
         {
             Application.Current.Shutdown();
         }
-
-        private bool IsOwner()
-        {
-            if (Owner_RadioButton.IsChecked == true) return true;
-            else return false;
-        }
+       
     }
 }

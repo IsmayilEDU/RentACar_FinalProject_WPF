@@ -18,14 +18,23 @@ namespace RentACar_FinalProject.ViewModels
 {
     internal class LoginViewModel
     {
+
+        #region Fields
+
         private TextBoxWithPlaceHolder _username;
         private TextBoxWithPlaceHolder _password;
         private RadioButton _IsOwner;
-        private bool _isOwner;
+
+        #endregion
+
+        #region Commands
 
         public RelayCommand Login { get; set; }
         public RelayCommand Register { get; set; }
 
+        #endregion
+
+        #region Operations
         public LoginViewModel(TextBoxWithPlaceHolder username,TextBoxWithPlaceHolder password, RadioButton isOwner)
         {
             Login = new RelayCommand(login);
@@ -35,15 +44,47 @@ namespace RentACar_FinalProject.ViewModels
             _IsOwner = isOwner;
         }
 
+        private Owner SearchedOwner()
+        {
+            Owner? SearchedOwner = null;
+
+            foreach (Owner owner in MyDatabase.Owners)
+            {
+                if (_username.Text == owner.Username && _password.Text == owner.Password)
+                {
+                    SearchedOwner = owner;
+                }
+            }
+            return SearchedOwner!;
+        }
+        
+        private Customer SearchedCustomer()
+        {
+            Customer? SearchedCustomer = null;
+
+            foreach (Customer customer in MyDatabase.Customers)
+            {
+                if (_username.Text == customer.Username && _password.Text == customer.Password)
+                {
+                    SearchedCustomer = customer;
+                }
+            }
+            return SearchedCustomer!;
+        }
+
+        #endregion
+
+        #region Functions of commands
+
         private void register()
         {
             Application.Current.MainWindow.Hide();
-            RegisterView registerView = new();
+            RegisterView registerView = new(_IsOwner);
             Application.Current.MainWindow= registerView;
             registerView.Show();
         }
 
-        public void login()
+        private void login()
         {
             try
             {
@@ -80,33 +121,7 @@ namespace RentACar_FinalProject.ViewModels
                 MessageBox.Show(ex.Message);
             }
         }
-        
-        private Owner SearchedOwner()
-        {
-            Owner? SearchedOwner = null;
+        #endregion
 
-            foreach (Owner owner in MyDatabase.Owners)
-            {
-                if (_username.Text == owner.Username && _password.Text == owner.Password)
-                {
-                    SearchedOwner = owner;
-                }
-            }
-            return SearchedOwner!;
-        }
-        
-        private Customer SearchedCustomer()
-        {
-            Customer? SearchedCustomer = null;
-
-            foreach (Customer customer in MyDatabase.Customers)
-            {
-                if (_username.Text == customer.Username && _password.Text == customer.Password)
-                {
-                    SearchedCustomer = customer;
-                }
-            }
-            return SearchedCustomer!;
-        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RentACar_FinalProject.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,12 @@ namespace RentACar_FinalProject.Views
     /// </summary>
     public partial class RegisterView : Window
     {
-        public RegisterView()
+        public RegisterView(RadioButton isOwner)
         {
             InitializeComponent();
+            DataContext = new RegisterViewModel(isOwner, InputUsername, InputPassword, InputNameOfBank,
+                InputCardNumber, InputDay,InputMonth,InputYear,
+                InputCVC, InputBalance);
         }
     }
 }

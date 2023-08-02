@@ -19,6 +19,7 @@ namespace RentACar_FinalProject
         {
 
             MyDatabase.LoadedDatas();
+
         }
     }
 }

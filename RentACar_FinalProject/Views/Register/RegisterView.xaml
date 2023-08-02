@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:RentACar_FinalProject.Views" 
         xmlns:usercontrols="clr-namespace:RentACar_FinalProject.Templates.UserControls"
         mc:Ignorable="d"
-        Style="{StaticResource sVertical_Window}" WindowStartupLocation="CenterScreen">
+        Style="{StaticResource sVertical_Window}" WindowStartupLocation="CenterScreen" Height="950">
 
     <Border CornerRadius="30" Background="{StaticResource cBackground}">
         <Grid>
@@ -29,47 +29,64 @@
                     </Grid.ColumnDefinitions>
 
                     <!--Menu Name-->
-                    <TextBlock Grid.Column="0" Style="{StaticResource sMenuName_TextBlock}" Text="Create Owner"  />
+                    <TextBlock Grid.Column="0" Style="{StaticResource sMenuName_TextBlock}" Text="Create User"  />
 
                     <!--Button of exit-->
-                <Button Grid.Column="1" Style="{StaticResource sCircleButton}" HorizontalAlignment="Right" Margin="5 5 15 5">
-                    <fa:ImageAwesome Icon="Home" Style="{StaticResource sIcon}" />
-                </Button>
+                    <Button Grid.Column="1" Style="{StaticResource sCircleButton}" 
+                            HorizontalAlignment="Right" Margin="5 5 15 5"
+                            Command="{Binding Home}">
+                        <fa:ImageAwesome Icon="Home" Style="{StaticResource sIcon}" />
+                    </Button>
 
-                </Grid>
+            </Grid>
                 <!--#endregion-->
 
             <!--#region Properties-->
             <StackPanel Grid.Row="1" Margin="20">
                 
-                <!--Name of menu-->
-                <TextBlock Text="Register" Foreground="{StaticResource cText}" FontSize="36" HorizontalAlignment="Center"/>
 
                 <!--Textblock of Username-->
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Username" />
-                
-                <!--Textbox of username-->
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Enter your username"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputUsername" PlaceHolder="Ex : cavid123"/>
 
                 <!--Textblock of Password-->
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Password" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputPassword" PlaceHolder="Ex : cavid123"/>
                 
-                <!--Textbox of username-->
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Enter your username"/>
-
-                <!--Textblock of Budget-->
-                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Budget" />
+                <!--Name of bank-->
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Name of bank" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputNameOfBank" PlaceHolder="Ex : Xalqbank"/>
                 
-                <!--Textbox of Budget-->
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Enter your budget"/>
+                <!--Card number of bank-->
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Card number of bank" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputCardNumber"  PlaceHolder="Ex : 1234567891234567"/>
+                
+                <!--Expiration date of card-->
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Expiration date" />
+                <StackPanel Orientation="Horizontal">
+                    <usercontrols:TextBoxWithPlaceHolder Width="125" x:Name="InputDay"  PlaceHolder="1"/>
+                    <usercontrols:TextBoxWithPlaceHolder Width="125" x:Name="InputMonth"  PlaceHolder="1"/>
+                    <usercontrols:TextBoxWithPlaceHolder Width="125" x:Name="InputYear"  PlaceHolder="2000"/>
+                </StackPanel>
 
+                <!--CVC-->
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="CVC" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputCVC"  PlaceHolder="Ex : 876"/>
+
+                <!--Balance-->
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Balance" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputBalance" PlaceHolder="Ex : 800"/>
+
+                
                 <!--Button of login-->
-                <Button Style="{StaticResource sRectangleButton}" Background="{StaticResource cButton}" Width="200">
+                <Button Style="{StaticResource sRectangleButton}" Background="{StaticResource cButton}" 
+                        Width="200" Command="{Binding Register}">
                     <StackPanel Orientation="Horizontal">
                         <fa:ImageAwesome Icon="Registered" Style="{StaticResource sIcon}" />
                         <TextBlock Style="{StaticResource sButtonText}" Text="Register" />
                     </StackPanel>
                 </Button>
+                
             </StackPanel>
             <!--#endregion-->
 
