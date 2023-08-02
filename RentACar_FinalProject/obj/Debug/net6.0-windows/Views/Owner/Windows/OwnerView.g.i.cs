@@ -55,7 +55,7 @@ namespace RentACar_FinalProject.Views.Owner.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/views/owner/windows/ownerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/views/owner/windows/ownerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Owner\Windows\OwnerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

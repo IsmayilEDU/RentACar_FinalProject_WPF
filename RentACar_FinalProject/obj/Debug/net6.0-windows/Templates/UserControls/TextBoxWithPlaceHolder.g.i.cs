@@ -69,8 +69,8 @@ namespace RentACar_FinalProject.Templates.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/templates/usercontrols/textboxwithplace" +
-                    "holder.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/templates/usercontrols/textboxwithplaceholder.xa" +
+                    "ml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Templates\UserControls\TextBoxWithPlaceHolder.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

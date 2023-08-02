@@ -61,8 +61,7 @@ namespace RentACar_FinalProject.Templates.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/templates/usercontrols/programlogo.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/templates/usercontrols/programlogo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Templates\UserControls\ProgramLogo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

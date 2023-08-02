@@ -56,7 +56,7 @@ namespace RentACar_FinalProject.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/views/login/loginview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/views/login/loginview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Login\LoginView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

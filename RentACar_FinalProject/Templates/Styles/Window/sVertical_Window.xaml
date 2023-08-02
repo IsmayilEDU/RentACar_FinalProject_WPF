@@ -7,8 +7,7 @@
         <Setter Property="Width" Value="400" />
         <Setter Property="AllowsTransparency" Value="True" />
         <Setter Property="WindowStyle" Value="None" />
-
-        
+        <Setter Property="ResizeMode" Value="NoResize" />
     </Style>
     
     

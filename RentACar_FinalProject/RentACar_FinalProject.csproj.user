@@ -16,16 +16,25 @@
     <Compile Update="Views\Login\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Owner\Pages\AvailableCarsPage.xaml.cs">
+    <Compile Update="Views\Owner\Pages\AllCarsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Owner\Pages\BusyCarsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Owner\Windows\AddCarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Owner\Windows\OwnerView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Owner\Windows\UpdateCarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Register\RegisterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SharedPages\BudgetOperationsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\SharedPages\ProfileInfoPage.xaml.cs">
@@ -87,16 +96,25 @@
     <Page Update="Views\Login\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Owner\Pages\AvailableCarsPage.xaml">
+    <Page Update="Views\Owner\Pages\AllCarsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Owner\Pages\BusyCarsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Owner\Windows\AddCarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Owner\Windows\OwnerView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Owner\Windows\UpdateCarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Register\RegisterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SharedPages\BudgetOperationsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\SharedPages\ProfileInfoPage.xaml">

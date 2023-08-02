@@ -108,10 +108,6 @@ namespace RentACar_FinalProject.Models.Classes
         #endregion
 
         #region Operations
-
-        
-
-        
         
         public Car (string make, string model, int year, double rentDayAmount, int rentDayCount = 0, string customerName = null!)
         {

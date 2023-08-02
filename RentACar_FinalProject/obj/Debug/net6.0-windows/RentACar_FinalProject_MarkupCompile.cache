@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\obj\Debug\net6.0-windows\
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\
 RentACar_FinalProject
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\MSI NOTEBOOK\Desktop\RentACar_FinalProject_WPF-27163603aba63bb37e6afc376078bcd4d823361c\RentACar_FinalProject\App.xaml
-26-1554942259
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\App.xaml
+30254578716
 
-25-1228576812
+29986848287
 200445147498
-Templates\StaticVariables\Colors.xaml;Templates\StaticVariables\Fonts.xaml;Templates\Styles\Button\ButtonWithIcon\sButtonText.xaml;Templates\Styles\Button\ButtonWithIcon\sCircleButton.xaml;Templates\Styles\Button\ButtonWithIcon\sIcon.xaml;Templates\Styles\Button\ButtonWithIcon\sRectangleButton.xaml;Templates\Styles\Button\sForBack_Button.xaml;Templates\Styles\Label\sProgramName_Label.xaml;Templates\Styles\Page\sPage.xaml;Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml;Templates\Styles\RadioButton\sRadioButton.xaml;Templates\Styles\TextBlock\sCreatedBy_TextBlock.xaml;Templates\Styles\TextBlock\sMenuName_TextBlock.xaml;Templates\Styles\TextBlock\sProperty_TextBlock.xaml;Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.xaml;Templates\Styles\TextBlock\sValue_TextBlock.xaml;Templates\Styles\Window\sHorizontal_Window.xaml;Templates\Styles\Window\sVertical_Window.xaml;Templates\UserControls\ProgramLogo.xaml;Templates\UserControls\TextBoxWithPlaceHolder.xaml;Views\Login\LoginView.xaml;Views\Owner\Pages\AvailableCarsPage.xaml;Views\Owner\Pages\BusyCarsPage.xaml;Views\Owner\Windows\OwnerView.xaml;Views\Register\RegisterView.xaml;Views\SharedPages\ProfileInfoPage.xaml;
+Templates\StaticVariables\Colors.xaml;Templates\StaticVariables\Fonts.xaml;Templates\Styles\Button\ButtonWithIcon\sButtonText.xaml;Templates\Styles\Button\ButtonWithIcon\sCircleButton.xaml;Templates\Styles\Button\ButtonWithIcon\sIcon.xaml;Templates\Styles\Button\ButtonWithIcon\sRectangleButton.xaml;Templates\Styles\Button\sForBack_Button.xaml;Templates\Styles\Label\sProgramName_Label.xaml;Templates\Styles\Page\sPage.xaml;Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml;Templates\Styles\RadioButton\sRadioButton.xaml;Templates\Styles\TextBlock\sCreatedBy_TextBlock.xaml;Templates\Styles\TextBlock\sMenuName_TextBlock.xaml;Templates\Styles\TextBlock\sProperty_TextBlock.xaml;Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.xaml;Templates\Styles\TextBlock\sValue_TextBlock.xaml;Templates\Styles\Window\sHorizontal_Window.xaml;Templates\Styles\Window\sVertical_Window.xaml;Templates\UserControls\ProgramLogo.xaml;Templates\UserControls\TextBoxWithPlaceHolder.xaml;Views\Login\LoginView.xaml;Views\Owner\Pages\AllCarsPage.xaml;Views\Owner\Pages\BusyCarsPage.xaml;Views\Owner\Windows\AddCarView.xaml;Views\Owner\Windows\OwnerView.xaml;Views\Owner\Windows\UpdateCarView.xaml;Views\Register\RegisterView.xaml;Views\SharedPages\BudgetOperationsPage.xaml;Views\SharedPages\ProfileInfoPage.xaml;Views\SharedWindows\AddBalanceView.xaml;
 
 False
 
