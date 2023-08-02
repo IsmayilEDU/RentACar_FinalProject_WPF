@@ -26,7 +26,7 @@
         <TextBox x:Name="txtBox" Text="{Binding ElementName=control, Path=Text}" 
                  Background="Transparent" FontSize="20" BorderThickness="0"
                  AcceptsReturn="{Binding ElementName=control, Path=Accest}"
-                 Foreground="White"
+                 Foreground="{StaticResource cText}"
                  Margin="20 10"/>
 
     </Grid>

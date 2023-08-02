@@ -16,7 +16,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition />
-                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <!--#endregion-->
 
@@ -74,9 +73,6 @@
             </StackPanel>
             <!--#endregion-->
 
-            <!--#region Text of created by-->
-            <TextBlock Grid.Row="3" Style="{StaticResource sCreatedBy_TextBlock}" />
-            <!--#endregion-->
             
         </Grid>
     </Border>

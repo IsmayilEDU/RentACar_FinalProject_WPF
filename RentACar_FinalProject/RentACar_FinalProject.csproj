@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Templates\Styles\Button\ButtonWithIcon\" />
-    <Folder Include="Views\Customer\Pages\" />
   </ItemGroup>
 
   <ItemGroup>

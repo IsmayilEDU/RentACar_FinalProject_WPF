@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RentACar_FinalProject.Models.Classes.AbstractClasses
 {
-    public abstract class User : IiD
+    public class User : IiD
     {
 
         #region Fields
@@ -59,7 +59,7 @@ namespace RentACar_FinalProject.Models.Classes.AbstractClasses
         #endregion
 
         #region Operations
-        protected User(string username, string password, BankCard card)
+        public User(string username, string password, BankCard card)
         {
             ID = Guid.NewGuid();
             Username = username;

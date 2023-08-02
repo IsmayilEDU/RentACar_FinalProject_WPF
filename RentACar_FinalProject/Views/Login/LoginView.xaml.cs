@@ -21,15 +21,22 @@ namespace RentACar_FinalProject.Views
     /// </summary>
     public partial class LoginView : Window
     {
+
         public LoginView()
         {
             InitializeComponent();
-            DataContext = new LoginViewModel();
+            DataContext = new LoginViewModel(Username_TextBox, Password_TextBox, Owner_RadioButton);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private bool IsOwner()
+        {
+            if (Owner_RadioButton.IsChecked == true) return true;
+            else return false;
         }
     }
 }

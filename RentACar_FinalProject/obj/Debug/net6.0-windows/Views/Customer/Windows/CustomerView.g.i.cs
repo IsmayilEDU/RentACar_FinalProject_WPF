@@ -55,8 +55,7 @@ namespace RentACar_FinalProject.Views.Customer.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/views/customer/windows/customerview.xam" +
-                    "l", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/views/customer/windows/customerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Customer\Windows\CustomerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

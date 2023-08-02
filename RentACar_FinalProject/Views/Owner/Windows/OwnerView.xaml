@@ -20,9 +20,7 @@
         <!--#region Menu-->
         <Border Background="{StaticResource cMenuBackground}" CornerRadius="30 0 0 30" BorderThickness="0">
             <DockPanel Margin="0 40">
-
                 <StackPanel  DockPanel.Dock="Top">
-
 
                     <!--Available cars button-->
                     <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True">
@@ -38,7 +36,6 @@
                     <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Money" />
                     </RadioButton>
-
 
                 </StackPanel>
 

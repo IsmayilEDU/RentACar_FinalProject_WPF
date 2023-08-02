@@ -13,6 +13,9 @@
     <Compile Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Customer\Pages\CarHistory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Customer\Windows\CustomerView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -66,9 +69,6 @@
     <Page Update="Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Templates\Styles\TextBlock\sCreatedBy_TextBlock.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Templates\Styles\TextBlock\sProperty_TextBlock.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -97,6 +97,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Customer\Pages\CarHistory.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Customer\Windows\CustomerView.xaml">

@@ -53,8 +53,7 @@ namespace RentACar_FinalProject.Views.SharedWindows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/views/sharedwindows/addbalanceview.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/views/sharedwindows/addbalanceview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\SharedWindows\AddBalanceView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
