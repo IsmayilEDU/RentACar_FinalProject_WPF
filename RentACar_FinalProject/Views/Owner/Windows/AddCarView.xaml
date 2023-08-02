@@ -6,7 +6,7 @@
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:local="clr-namespace:RentACar_FinalProject.Views.Owner.Windows" xmlns:usercontrols="clr-namespace:RentACar_FinalProject.Templates.UserControls"
         mc:Ignorable="d"
-        Style="{StaticResource sVertical_Window}">
+        Style="{StaticResource sVertical_Window}" WindowStartupLocation="CenterScreen">
     <Border CornerRadius="30" Background="{StaticResource cBackground}">
         <Grid>
 

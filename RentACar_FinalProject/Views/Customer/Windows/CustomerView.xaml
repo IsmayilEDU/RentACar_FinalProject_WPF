@@ -1,0 +1,68 @@
+﻿<Window x:Class="RentACar_FinalProject.Views.Customer.Windows.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:local="clr-namespace:RentACar_FinalProject.Views.Customer.Windows"
+        mc:Ignorable="d"
+        Style="{StaticResource sHorizontal_Window}" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <!--#region Columns-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition />
+            <ColumnDefinition  Width="250"/>
+        </Grid.ColumnDefinitions>
+        <!--#endregion-->
+
+        <!--#region Menu-->
+        <Border Background="{StaticResource cMenuBackground}" CornerRadius="30 0 0 30" BorderThickness="0">
+            <DockPanel Margin="0 40">
+
+                <StackPanel  DockPanel.Dock="Top">
+
+
+                    <!--Available cars button-->
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True">
+                        <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Car" />
+                    </RadioButton>
+
+                    <!--Budget button-->
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                        <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Money" />
+                    </RadioButton>
+                    
+                    <!--History button-->
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                        <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="History" />
+                    </RadioButton>
+
+
+                </StackPanel>
+
+                <Button Style="{StaticResource sCircleButton}" VerticalAlignment="Bottom">
+                    <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="SignOut" />
+                </Button>
+            </DockPanel>
+        </Border>
+        <!--#endregion-->
+
+        <!--#region Pages-->
+        <Grid Grid.Column="1" Background="{StaticResource cBackground}">
+
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Profile's info-->
+        <Border Grid.Column="2" CornerRadius="0 30 30 0" Background="AliceBlue">
+            <StackPanel Margin="0 40">
+
+                <!--Username-->
+            </StackPanel>
+        </Border>
+        <!--#endregion-->
+
+    </Grid>
+</Window>

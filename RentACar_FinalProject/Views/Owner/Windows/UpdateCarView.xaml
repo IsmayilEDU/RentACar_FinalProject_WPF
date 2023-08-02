@@ -7,7 +7,7 @@
         xmlns:usercontrols="clr-namespace:RentACar_FinalProject.Templates.UserControls"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-         Style="{StaticResource sVertical_Window}">
+         Style="{StaticResource sVertical_Window}" WindowStartupLocation="CenterScreen">
     <Border CornerRadius="30" Background="{StaticResource cBackground}">
         <Grid>
 
@@ -25,34 +25,39 @@
             <!--Name of menu-->
             <TextBlock Style="{StaticResource sMenuName_TextBlock}" Text="Update car" />
 
+            <!--Make of Selected car-->
             <StackPanel Grid.Row="1">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Make"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter name of new car"
+                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter name of car"
                                                      Text="{Binding SelectedCar.Make}"/>
             </StackPanel>
 
+            <!--Model of Selected car-->
             <StackPanel Grid.Row="2">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Model"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter model of new car"
+                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter model of car"
                                                      Text="{Binding SelectedCar.Model}"/>
             </StackPanel>
 
+            <!--Year of Selected car-->
             <StackPanel Grid.Row="3">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Year"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter year of new car"
+                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter year of car"
                                                      Text="{Binding SelectedCar.Year}"/>
             </StackPanel>
 
+            <!--Amount of day of Selected car-->
             <StackPanel Grid.Row="4">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Amount of day"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter amount of day of new car"
+                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter amount of day of car"
                                                      Text="{Binding SelectedCar.RentDayAmount}"/>
             </StackPanel>
 
-            <Button Grid.Row="5" Style="{StaticResource sRectangleButton}">
+            <!--Update Car button-->
+            <Button Grid.Row="5" Style="{StaticResource sRectangleButton}" Width="250">
                 <StackPanel Orientation="Horizontal">
-                    <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Plus"/>
-                    <TextBlock Style="{StaticResource sButtonText}" Text="Add car" />
+                    <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Wrench"/>
+                    <TextBlock Style="{StaticResource sButtonText}" Text="Update Car" />
                 </StackPanel>
             </Button>
 

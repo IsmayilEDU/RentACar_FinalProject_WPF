@@ -55,7 +55,7 @@ namespace RentACar_FinalProject.Views.SharedPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;component/views/sharedpages/profileinfopage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RentACar_FinalProject;V1.0.0.0;component/views/sharedpages/profileinfopage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\SharedPages\ProfileInfoPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
