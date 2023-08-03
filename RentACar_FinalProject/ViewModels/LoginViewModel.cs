@@ -39,6 +39,7 @@ namespace RentACar_FinalProject.ViewModels
         {
             Login = new RelayCommand(login);
             Register = new RelayCommand(register);
+            
             _username = username;
             _password = password;
             _IsOwner = isOwner;
@@ -97,7 +98,7 @@ namespace RentACar_FinalProject.ViewModels
                     }
 
                     Application.Current.MainWindow.Hide();
-                    OwnerView ownerView = new();
+                    OwnerView ownerView = new(SearchedOwner);
                     Application.Current.MainWindow = ownerView;
                     ownerView.Show();
 

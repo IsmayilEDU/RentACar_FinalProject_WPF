@@ -1,16 +1,12 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.ViewModels.OwnerViewModels;
+using RentACar_FinalProject.Views.Owner.Pages;
+using RentACar_FinalProject.Views.SharedPages;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+
 
 namespace RentACar_FinalProject.Views.Owner.Windows
 {
@@ -19,9 +15,18 @@ namespace RentACar_FinalProject.Views.Owner.Windows
     /// </summary>
     public partial class OwnerView : Window
     {
-        public OwnerView()
+        public OwnerView(Models.Classes.UserClasses.Owner SelectedOwner)
         {
             InitializeComponent();
+            List<Car> BusyCarsList = SelectedOwner.Cars.Where(car=> car.IsAvaible== false).ToList();
+            ObservableCollection<Car> BusyCars = new ObservableCollection<Car>(BusyCarsList);
+            OwnerFrame.Navigate(new BusyCarsPage(BusyCars));
+            ProfileInfoFrame.Navigate(new ProfileInfoPage(SelectedOwner));
+            DataContext = new OwnerViewModel(OwnerFrame, SelectedOwner);
         }
+
+
+
+
     }
 }

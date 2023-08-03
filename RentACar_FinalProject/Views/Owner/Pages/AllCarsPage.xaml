@@ -1,4 +1,4 @@
-﻿<Page x:Class="RentACar_FinalProject.Views.Owner.Pages.AvailableCars"
+﻿<Page x:Class="RentACar_FinalProject.Views.Owner.Pages.AllCarsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -35,22 +35,22 @@
                     <TextBlock Style="{StaticResource sButtonText}" Text="Add car" />
                 </StackPanel>
             </Button>
-            
+
             <Button Style="{StaticResource sRectangleButton}" Width="250" Margin="10">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Wrench" />
                     <TextBlock Style="{StaticResource sButtonText}" Text="Update car" />
                 </StackPanel>
             </Button>
-            
+
             <Button Style="{StaticResource sRectangleButton}"  Background="{StaticResource cRedButton}" Width="250">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Trash" />
                     <TextBlock Style="{StaticResource sButtonText}" Text="Delete car" />
                 </StackPanel>
             </Button>
-            
-            
+
+
         </StackPanel>
         <!--#endregion-->
     </Grid>

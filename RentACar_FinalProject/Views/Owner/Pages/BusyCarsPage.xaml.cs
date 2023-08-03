@@ -1,5 +1,8 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.ViewModels.OwnerViewModels;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,13 +19,14 @@ using System.Windows.Shapes;
 namespace RentACar_FinalProject.Views.Owner.Pages
 {
     /// <summary>
-    /// Interaction logic for BusyCars.xaml
+    /// Interaction logic for BusyCarsPage.xaml
     /// </summary>
-    public partial class BusyCars : Page
+    public partial class BusyCarsPage : Page
     {
-        public BusyCars()
+        public BusyCarsPage(ObservableCollection<Car> BusyCars)
         {
             InitializeComponent();
+            DataContext = new BusyCarsViewModel(BusyCars);
         }
     }
 }

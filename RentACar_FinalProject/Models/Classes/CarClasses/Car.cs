@@ -122,9 +122,9 @@ namespace RentACar_FinalProject.Models.Classes
             if (rentDayCount > 0)
             {
                 IsAvaible = false;
+                CustomerName = customerName;
+                location = MyDatabase.GetRandomLocation();
             }
-            CustomerName = customerName;
-            location = MyDatabase.GetRandomLocation();
         }
 
         

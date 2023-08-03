@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes.AbstractClasses;
+using RentACar_FinalProject.ViewModels.SharedPagesViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,10 @@ namespace RentACar_FinalProject.Views.SharedPages
     /// </summary>
     public partial class ProfileInfoPage : Page
     {
-        public ProfileInfoPage()
+        public ProfileInfoPage(User SelectedUser)
         {
             InitializeComponent();
+            DataContext = new ProfileInfoViewModel(SelectedUser);
         }
     }
 }

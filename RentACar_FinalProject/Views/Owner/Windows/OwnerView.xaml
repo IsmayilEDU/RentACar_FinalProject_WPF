@@ -23,23 +23,23 @@
                 <StackPanel  DockPanel.Dock="Top">
 
                     <!--Available cars button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True" Command="{Binding BusyCars}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="LocationArrow" />
                     </RadioButton>
 
                     <!--Available cars button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" Command="{Binding AllCars}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Car" />
                     </RadioButton>
 
                     <!--Budget button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" Command="{Binding BudgetHistory}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Money" />
                     </RadioButton>
 
                 </StackPanel>
 
-                <Button Style="{StaticResource sCircleButton}" VerticalAlignment="Bottom">
+                <Button Style="{StaticResource sCircleButton}" VerticalAlignment="Bottom" Command="{Binding Exit}">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="SignOut" />
                 </Button>
             </DockPanel>
@@ -47,17 +47,14 @@
         <!--#endregion-->
         
         <!--#region Pages-->
-        <Grid Grid.Column="1" Background="{StaticResource cBackground}">
+        <Frame x:Name="OwnerFrame" Grid.Column="1" Background="{StaticResource cBackground}">
             
-        </Grid>
+        </Frame>
         <!--#endregion-->
         
         <!--#region Profile's info-->
         <Border Grid.Column="2" CornerRadius="0 30 30 0" Background="AliceBlue">
-            <StackPanel Margin="0 40">
-                
-                <!--Username-->
-            </StackPanel>
+            <Frame x:Name="ProfileInfoFrame" />
         </Border>
         <!--#endregion-->
 

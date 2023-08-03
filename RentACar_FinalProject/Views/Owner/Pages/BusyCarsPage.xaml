@@ -1,13 +1,13 @@
-﻿<Page x:Class="RentACar_FinalProject.Views.Owner.Pages.BusyCars"
+﻿<Page x:Class="RentACar_FinalProject.Views.Owner.Pages.BusyCarsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:RentACar_FinalProject.Views.Owner.Pages"
       mc:Ignorable="d" 
-      Style="{StaticResource sPage}">
+      Style="{StaticResource sPage}" Background="White">
 
-    <Grid Margin="10" Background="{StaticResource cBackground}">
+    <Grid Margin="10">
 
         <!--#region Columns-->
         <Grid.ColumnDefinitions>
@@ -15,39 +15,43 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <!--#endregion-->
-        
+
         <!--#region Cars-->
         <StackPanel>
-            
+
             <!--#region Title-->
             <TextBlock Text="Rental cars" Style="{StaticResource sMenuName_TextBlock}" />
             <!--#endregion-->
-            
+
             <!--#region Rental cars-->
             <Grid Grid.Row="1">
                 <ListView Name="ClientsView" ScrollViewer.HorizontalScrollBarVisibility="Auto" 
-                          Background="{StaticResource cSelectedMenuItem}" Margin="20"
-                          BorderBrush="Transparent" ItemsSource="{Binding RentalCars}">
+                          Background="{StaticResource cBackground}" Margin="20"
+                          BorderBrush="Transparent" ItemsSource="{Binding BusyCars}">
 
-                    <ListView.ItemTemplate>
+                    <ListView.ItemTemplate >
                         <DataTemplate>
-                            <Grid Background="White" Margin="10" >
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="4*"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
+                            <Border CornerRadius="30" Background="AliceBlue" Width="150">
+                                <Grid>
 
-                                <StackPanel Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0" Margin="10" >
 
-                                    <TextBlock  FontSize="15" Text="{Binding ID}"/>
-                                    <TextBlock  FontSize="15" Text="{Binding Make}"/>
-                                    <TextBlock  FontSize="15" Text="{Binding Model}"/>
-                                </StackPanel>
+                                        <TextBlock  FontSize="15" Text="{Binding Make}"/>
+                                        <TextBlock  FontSize="15" Text="{Binding Model}"/>
+                                        <TextBlock  FontSize="15" Text="{Binding Year}"/>
 
-                                <TextBlock Grid.Column="1" Text="{Binding RentDay}" VerticalAlignment="Bottom"/>
+                                    </StackPanel>
+                                    <TextBlock Grid.Column="1"  Text="{Binding RentDayAmount}" FontSize="25" VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
 
-                            </Grid>
                         </DataTemplate>
+                        
+
                     </ListView.ItemTemplate>
                 </ListView>
             </Grid>
@@ -55,48 +59,80 @@
 
         </StackPanel>
         <!--#endregion-->
-        
+
         <!--#region Car info-->
         <Grid Grid.Column="1">
-            
+
             <!--#region Rows-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="0.5*"/>
                 <RowDefinition />
-                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <!--#endregion-->
-            
+
             <!--#region ID of car-->
-            <TextBlock Text="{Binding SelectedCar.ID}"/>
+            <TextBlock Text="{Binding SelectedBusyCar.ID}"/>
             <!--#endregion-->
-            
+
             <!--#region Customer and Car info-->
             <Grid Grid.Row="1">
-                
-                <!--#region Customer info-->
-                
+
+                <!--#region Rows-->
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
                 <!--#endregion-->
+
+                <!--Make-->
+                <Grid Grid.Row="0">
+                    <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Make"/>
+                    <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedBusyCar.Make}"/>
+                </Grid>
+
+                <!--Model-->
+                <Grid Grid.Row="1">
+                    <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Model"/>
+                    <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedBusyCar.Model}"/>
+                </Grid>
+
+                <!--Year-->
+                <Grid Grid.Row="2">
+                    <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Year"/>
+                    <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedBusyCar.Year}"/>
+                </Grid>
                 
-                <!--#region Car info-->
+                <!--Count of rent days-->
+                <Grid Grid.Row="3">
+                    <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Count of rent days"/>
+                    <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedBusyCar.RentDayCount}"/>
+                </Grid>
                 
-                <!--#endregion-->
+                <!--Name of customer-->
+                <Grid Grid.Row="4">
+                    <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Name of customer"/>
+                    <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedBusyCar.CustomerName}"/>
+                </Grid>
+
+                
+
             </Grid>
             <!--#endregion-->
-            
+
             <!--#region Map-->
             <Grid Grid.Row="2">
-                
+
             </Grid>
             <!--#endregion-->
-            
-            <!--#region Created by-->
-            <TextBlock Grid.Row="3" Style="{StaticResource sCreatedBy_TextBlock}"/>
-            <!--#endregion-->
-            
+
+           
+
         </Grid>
         <!--#endregion-->
-        
+
     </Grid>
 </Page>

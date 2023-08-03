@@ -8,7 +8,7 @@
       mc:Ignorable="d" 
       d:DesignHeight="720" d:DesignWidth="250" >
 
-    <Border Grid.Column="2" CornerRadius="0 30 30 0" Background="AliceBlue">
+    <Border Grid.Column="2">
         <Grid Margin="0 40">
 
             <!--#region Rows-->
@@ -29,12 +29,6 @@
             <TextBlock Style="{StaticResource sMenuName_TextBlock}" Text="{Binding SelectedUser.Username}"
                        HorizontalAlignment="Center" FontSize="50" FontWeight="Bold"/>
 
-            <!--ID-->
-            <Grid Grid.Row="1">
-                <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="ID" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedUser.ID}" />
-            </Grid>
-
             <!--Name of bank-->
             <Grid Grid.Row="2">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Name of bank" />
@@ -50,7 +44,7 @@
 
             <!--ExpirationDate of card-->
             <Grid Grid.Row="4">
-                <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Expiration date" />
+                <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="FinishDate" />
                 <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedUser.Card.ExpirationDate}" />
             </Grid>
 
