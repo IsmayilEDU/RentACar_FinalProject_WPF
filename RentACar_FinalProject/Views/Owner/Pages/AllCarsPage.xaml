@@ -15,7 +15,8 @@
             <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
 
-        <ListView Grid.Row="0" ItemsSource="{Binding AvailableCars}" >
+        <ListView Grid.Row="0" SelectionChanged="AllCarsList_SelectionChanged" Loaded="AllCarsList_Loaded" 
+                  ItemsSource="{Binding AllCars}" x:Name="AllCarsList" BorderThickness="0" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="ID" Width="185" DisplayMemberBinding="{Binding ID}"/>

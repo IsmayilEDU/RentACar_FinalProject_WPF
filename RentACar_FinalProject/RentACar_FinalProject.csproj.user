@@ -63,9 +63,6 @@
     <Page Update="Templates\Styles\Button\sForBack_Button.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Templates\Styles\ListViewItem\sCarItem_ListViewItem.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Templates\Styles\Page\sPage.xaml">
       <SubType>Designer</SubType>
     </Page>

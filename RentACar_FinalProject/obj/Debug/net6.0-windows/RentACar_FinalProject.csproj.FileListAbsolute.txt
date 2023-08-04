@@ -157,4 +157,3 @@ C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalPro
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.pdb
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.genruntimeconfig.cache
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\ref\RentACar_FinalProject.dll
-C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\ListViewItem\sCarItem_ListViewItem.baml

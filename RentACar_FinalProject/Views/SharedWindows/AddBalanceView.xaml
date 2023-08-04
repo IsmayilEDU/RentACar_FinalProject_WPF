@@ -3,11 +3,46 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RentACar_FinalProject.Views.SharedWindows"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:local="clr-namespace:RentACar_FinalProject.Views.SharedWindows" xmlns:usercontrols="clr-namespace:RentACar_FinalProject.Templates.UserControls"
         mc:Ignorable="d"
         Style="{StaticResource sVertical_Window}" WindowStartupLocation="CenterScreen">
     <Border CornerRadius="30" Background="{StaticResource cBackground}">
         <Grid>
+            
+            <!--#region Rows-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <!--#endregion-->
+
+            <!--Name of Menu-->
+            <TextBlock  Style="{StaticResource sMenuName_TextBlock}" FontSize="50"
+                        Text="Add balance" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <!--Card Number-->
+            <Grid Grid.Row="1">
+                <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="CardNumber" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedUser.Card.CardNumber}" />
+            </Grid>
+            
+            <!--Input Amount for add balance-->
+            <StackPanel Grid.Row="2">
+                <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Amount for add balance" />
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputAmount" PlaceHolder="Ex : 200"/>
+            </StackPanel>
+            
+            <!--Add button-->
+            <Button Grid.Row="3" Style="{StaticResource sRectangleButton}" Command="{Binding Add}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Plus" />
+                    <TextBlock Style="{StaticResource sButtonText}" Text="Add" />
+                </StackPanel>
+            </Button>
+            
         </Grid>
     </Border>
 </Window>

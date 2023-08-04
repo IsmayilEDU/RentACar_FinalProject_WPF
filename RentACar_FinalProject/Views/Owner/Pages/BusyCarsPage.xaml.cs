@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace RentACar_FinalProject.Views.Owner.Pages
 {
     /// <summary>
@@ -23,10 +24,17 @@ namespace RentACar_FinalProject.Views.Owner.Pages
     /// </summary>
     public partial class BusyCarsPage : Page
     {
+        BusyCarsViewModel busyCarsViewModel;
         public BusyCarsPage(ObservableCollection<Car> BusyCars)
         {
             InitializeComponent();
-            DataContext = new BusyCarsViewModel(BusyCars);
+            busyCarsViewModel = new BusyCarsViewModel(BusyCars);
+            DataContext = busyCarsViewModel;
+        }
+
+        private void BusyCarListItems_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            busyCarsViewModel.SelectedBusyCar = BusyCarListItems.SelectedItem as Car;
         }
     }
 }

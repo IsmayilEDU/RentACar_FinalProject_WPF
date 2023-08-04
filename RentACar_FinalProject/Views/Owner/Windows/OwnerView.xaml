@@ -47,7 +47,8 @@
         <!--#endregion-->
         
         <!--#region Pages-->
-        <Frame x:Name="OwnerFrame" Grid.Column="1" Background="{StaticResource cBackground}">
+        <Frame x:Name="OwnerFrame" Grid.Column="1" Background="{StaticResource cBackground}" 
+               NavigationUIVisibility="Hidden" BorderThickness="0">
             
         </Frame>
         <!--#endregion-->

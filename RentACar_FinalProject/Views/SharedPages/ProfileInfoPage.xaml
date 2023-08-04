@@ -57,10 +57,10 @@
             <!--Balance-->
             <Grid Grid.Row="6">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Balance" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedOwner.Card.Balance}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedUser.Card.Balance}" />
             </Grid>
 
-            <Button Grid.Row="7" Style="{StaticResource sRectangleButton}">
+            <Button Grid.Row="7" Style="{StaticResource sRectangleButton}" Command="{Binding AddBalance}">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Plus" Width="20"/>
                     <TextBlock Style="{StaticResource sButtonText}" Text="Add Balance" FontSize="15" />

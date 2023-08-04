@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes.AbstractClasses;
+using RentACar_FinalProject.ViewModels.SharedPagesViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,11 @@ namespace RentACar_FinalProject.Views.SharedWindows
     /// </summary>
     public partial class AddBalanceView : Window
     {
-        public AddBalanceView()
+        public AddBalanceView(User SelectedUser)
         {
             InitializeComponent();
+            DataContext = new AddBalanceViewModel(InputAmount, SelectedUser);
+
         }
     }
 }

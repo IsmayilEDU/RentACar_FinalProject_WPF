@@ -51,12 +51,12 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 
         private void busyCars()
         {
-            
-            
+            _OwnerFrame.Navigate(new BusyCarsPage(SelectedOwner.Cars));
+
         }
         private void allCars()
         {
-            _OwnerFrame.DataContext = new AllCarsPage();
+            _OwnerFrame.Navigate(new AllCarsPage(SelectedOwner.Cars));
         }
         private void budgetHistory()
         {

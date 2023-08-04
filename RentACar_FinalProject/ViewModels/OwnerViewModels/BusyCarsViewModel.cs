@@ -5,16 +5,28 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GalaSoft.MvvmLight.Command;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 {
-    class BusyCarsViewModel
+    class BusyCarsViewModel : INotifyPropertyChanged
     {
         #region Fields
 
+        //  Busy Cars
         public ObservableCollection<Car> BusyCars { get; set; }
 
-        public Car SelectedBusyCar { get; set; }
+        //  Selected Car
+        private Car selectedBusyCar;
+        public Car SelectedBusyCar { get => selectedBusyCar;
+            set
+            {
+                selectedBusyCar = value;
+                OnPropertyChanged();
+            }
+        }
 
         #endregion
 
@@ -26,6 +38,17 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
             SelectedBusyCar = this.BusyCars[0];
         }
 
+
+        #endregion
+
+        #region PropertyChanged
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        private void OnPropertyChanged([CallerMemberName] string name = null)
+        {
+            if (PropertyChanged != null) { PropertyChanged(this, new PropertyChangedEventArgs(name)); }
+        }
 
         #endregion
     }
