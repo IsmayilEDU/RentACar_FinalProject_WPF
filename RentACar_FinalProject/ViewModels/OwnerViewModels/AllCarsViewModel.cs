@@ -67,12 +67,16 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 
         public void updateCar()
         {
-
+            Application.Current.MainWindow.Hide();
+            UpdateCarView updateCarView = new(selectedCar, SelectedOwner);
+            Application.Current.MainWindow = updateCarView;
+            updateCarView.Show();
         }
 
         public void deleteCar()
         {
-
+            SelectedOwner.Cars.Remove(SelectedCar);
+            SelectedCar = SelectedOwner.Cars[0];
         }
         #endregion
 

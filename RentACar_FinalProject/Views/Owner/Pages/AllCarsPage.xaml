@@ -37,14 +37,14 @@
                 </StackPanel>
             </Button>
 
-            <Button Style="{StaticResource sRectangleButton}" Width="250" Margin="10">
+            <Button Style="{StaticResource sRectangleButton}" Width="250" Margin="10" Command="{Binding UpdateCar}">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Wrench" />
                     <TextBlock Style="{StaticResource sButtonText}" Text="Update car" />
                 </StackPanel>
             </Button>
 
-            <Button Style="{StaticResource sRectangleButton}"  Background="{StaticResource cRedButton}" Width="250">
+            <Button Style="{StaticResource sRectangleButton}"  Background="{StaticResource cRedButton}" Width="250" Command="{Binding DeleteCar}" >
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Trash" />
                     <TextBlock Style="{StaticResource sButtonText}" Text="Delete car" />

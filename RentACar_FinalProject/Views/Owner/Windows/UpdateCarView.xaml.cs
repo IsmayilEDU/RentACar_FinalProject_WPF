@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.ViewModels.OwnerViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,10 @@ namespace RentACar_FinalProject.Views.Owner.Windows
     /// </summary>
     public partial class UpdateCarView : Window
     {
-        public UpdateCarView()
+        public UpdateCarView(Car selectedCar, Models.Classes.UserClasses.Owner SelectedOwner)
         {
             InitializeComponent();
+            DataContext = new UpdateCarViewModel(InputMake, InputModel,InputYear, InputAmount, selectedCar, SelectedOwner);
         }
     }
 }
