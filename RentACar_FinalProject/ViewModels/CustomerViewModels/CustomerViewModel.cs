@@ -55,7 +55,7 @@ namespace RentACar_FinalProject.ViewModels.CustomerViewModels
         {
             var AllAvailableCarsList = MyDatabase.AllCars.Where((car) => car.IsAvaible == true).ToList();
             ObservableCollection<Car> AllAvailableCars = new(AllAvailableCarsList);
-            _CustomerFrame.Navigate(new Views.Customer.Pages.AllCarsPage());
+            _CustomerFrame.Navigate(new Views.Customer.Pages.AllCarsPage(AllAvailableCars, SelectedCustomer));
         }
         public void budgetHistory()
         {

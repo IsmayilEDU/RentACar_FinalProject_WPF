@@ -29,7 +29,7 @@ namespace RentACar_FinalProject.Views.Customer.Windows
             DataContext = new ViewModels.CustomerViewModels.CustomerViewModel(CustomerFrame, SelectedCustomer);
             var AllAvailableCarsList = MyDatabase.AllCars.Where((car) => car.IsAvaible == true).ToList();
             ObservableCollection<Car> AllAvailableCars = new(AllAvailableCarsList);
-            CustomerFrame.Navigate(new Views.Customer.Pages.AllCarsPage());
+            CustomerFrame.Navigate(new Views.Customer.Pages.AllCarsPage(AllAvailableCars, SelectedCustomer));
             ProfileInfoFrame.Navigate(new ProfileInfoPage(SelectedCustomer));
         }
 

@@ -27,31 +27,31 @@
             <!--Make of selected car-->
             <Grid Grid.Row="1">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Make" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedUser.ID}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedCar.Make}" />
             </Grid>
             
              <!--Model of selected car-->
             <Grid Grid.Row="2">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Model" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedUser.Model}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedCar.Model}" />
             </Grid>
             
              <!--Year of selected car-->
             <Grid Grid.Row="3">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Year" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedUser.Year}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}" Text="{Binding SelectedCar.Year}" />
             </Grid>
             
             <!--Amount of rent car of selected car-->
             <Grid Grid.Row="4">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Amount of rent" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedUser.RentDayAmount}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedCar.RentDayAmount}" />
             </Grid>
             
             <!--Balance of selected customer-->
             <Grid Grid.Row="5">
                 <TextBlock Style="{StaticResource sProperty_TextBlock}" Text="Balance" />
-                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedUser.Card.Balance}" />
+                <TextBlock Style="{StaticResource sValue_TextBlock}"  Text="{Binding SelectedCustomer.Card.Balance}" />
             </Grid>
             
             <!--Input count of rent day car-->
@@ -62,10 +62,10 @@
                            Text="Count of rent car"/>
 
                 <!--Input Count of rent car-->
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter count day of rent car"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputDay" PlaceHolder="Please enter count day of rent car"/>
 
                 <!--Rent button-->
-                <Button Grid.Row="6" Style="{StaticResource sRectangleButton}">
+                <Button Grid.Row="6" Style="{StaticResource sRectangleButton}" Command="{Binding Rent}">
                     <StackPanel Orientation="Horizontal">
                         <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Money"/>
                         <TextBlock Style="{StaticResource sButtonText}" Text="Rent" />

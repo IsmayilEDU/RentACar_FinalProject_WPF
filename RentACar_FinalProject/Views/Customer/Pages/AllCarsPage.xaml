@@ -3,12 +3,51 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:fa="http://schemas.fontawesome.io/icons/"
       xmlns:local="clr-namespace:RentACar_FinalProject.Views.Customer.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="AllCarsPage">
+      Style="{StaticResource sPage}">
 
-    <Grid>
-        
-    </Grid>
+    <ListView x:Name="AllCarsList" ScrollViewer.VerticalScrollBarVisibility="Auto" 
+              Background="{StaticResource cBackground}" Margin="20" 
+              SelectionChanged="AllCarsList_SelectionChanged"
+              BorderBrush="Transparent" ItemsSource="{Binding AllCars}">
+
+        <ListView.ItemTemplate >
+            <DataTemplate>
+                <Border CornerRadius="30" Background="AliceBlue" Height="120" Width="650" Margin="10">
+                    <Grid Margin="20 0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        
+                        <StackPanel Grid.Column="0" Orientation="Horizontal" >
+
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold"  FontSize="25" Text="{Binding Make}" Margin="10 0"/>
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold" FontSize="25" Text="{Binding Model}" Margin="10 0"/>
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold" FontSize="25" Text="{Binding Year}" Margin="10 0"/>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock  FontSize="25" Text="{Binding RentDayAmount}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                            <Button Grid.Column="1" Style="{StaticResource sRectangleButton}" Command="{Binding DataContext.Rent, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Money" />
+                                    <TextBlock Style="{StaticResource sButtonText}" Text="Rent" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+
+            </DataTemplate>
+
+
+        </ListView.ItemTemplate>
+    </ListView>
 </Page>

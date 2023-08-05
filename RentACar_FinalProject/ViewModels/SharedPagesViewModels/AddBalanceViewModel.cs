@@ -1,5 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Command;
 using RentACar_FinalProject.Models.Classes.AbstractClasses;
+using RentACar_FinalProject.Models.Classes.OperationClasses;
 using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.Templates.UserControls;
 using RentACar_FinalProject.Views.Customer.Windows;
@@ -48,6 +49,8 @@ namespace RentACar_FinalProject.ViewModels.SharedPagesViewModels
                         Application.Current.MainWindow = customerView;
                         customerView.Show();
                     }
+
+                    SelectedUser.OperationsOfBudget.Add(new BudgetOperation("Balansin artirilmasi", inputAmount, false));
                 }
                 else
                 {

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.Models.Classes.UserClasses;
+using RentACar_FinalProject.ViewModels.CustomerViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +22,10 @@ namespace RentACar_FinalProject.Views.Customer.Windows
     /// </summary>
     public partial class RentCarView : Window
     {
-        public RentCarView()
+        public RentCarView(Models.Classes.UserClasses.Customer selectedCustomer, Car selectedCar)
         {
             InitializeComponent();
+            DataContext = new RentCarViewModel(selectedCustomer, selectedCar, InputDay);
         }
     }
 }

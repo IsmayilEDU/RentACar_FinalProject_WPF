@@ -73,17 +73,6 @@ namespace RentACar_FinalProject.Models.Classes
         //  Location
         public Location location { get; set; }
 
-        //  Day of rent
-        private int _RentDayCount;
-        public int RentDayCount
-        {
-            get { return _RentDayCount; }
-            set
-            {
-               _RentDayCount = value;
-            }
-        }
-        
         //  Amount of total rent
         private double _RentDayAmount;
         public double RentDayAmount
@@ -101,6 +90,19 @@ namespace RentACar_FinalProject.Models.Classes
                 }
             }
         }
+
+
+        //  Day of rent
+        private int _RentDayCount;
+        public int RentDayCount
+        {
+            get { return _RentDayCount; }
+            set
+            {
+               _RentDayCount = value;
+            }
+        }
+        
 
         //  ID of customer
         public string CustomerName { get; set; }
