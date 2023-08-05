@@ -1,5 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Command;
 using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.Models.Classes.DatabaseClasses;
 using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.Views.Owner.Windows;
 using System;
@@ -75,6 +76,15 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 
         public void deleteCar()
         {
+            foreach (var car in MyDatabase.AllCars)
+            {
+                if (selectedCar.ID == car.ID)
+                {
+                    MyDatabase.AllCars.Remove(car);
+                    break;
+                }
+            }
+
             SelectedOwner.Cars.Remove(SelectedCar);
             SelectedCar = SelectedOwner.Cars[0];
         }

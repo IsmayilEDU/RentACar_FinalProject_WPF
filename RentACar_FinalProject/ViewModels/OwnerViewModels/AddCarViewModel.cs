@@ -1,6 +1,7 @@
 ﻿using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.Models.Classes.DatabaseClasses;
 using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.Templates.UserControls;
 using RentACar_FinalProject.Views.Owner.Windows;
@@ -54,7 +55,9 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
             {
                 int year = Convert.ToInt32(_InputYear.Text);
                 double amount = Convert.ToDouble(_InputAmount.Text);
-                SelectedOwner.Cars.Add(new Car(_InputMake.Text, _InputModel.Text, year, amount));
+                Car NewCar = new Car(_InputMake.Text, _InputModel.Text, year, amount);
+                SelectedOwner.Cars.Add(NewCar);
+                MyDatabase.AllCars.Add(NewCar);
 
                 Application.Current.MainWindow.Hide();
                 OwnerView ownerView = new(SelectedOwner);

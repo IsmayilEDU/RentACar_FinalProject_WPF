@@ -6,7 +6,7 @@
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:local="clr-namespace:RentACar_FinalProject.Views.Customer.Windows"
         mc:Ignorable="d"
-        Style="{StaticResource sHorizontal_Window}" WindowStartupLocation="CenterScreen">
+        Style="{StaticResource sHorizontal_Window}" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Grid>
 
         <!--#region Columns-->
@@ -25,24 +25,24 @@
 
 
                     <!--Available cars button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" IsChecked="True" Command="{Binding AllCars}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Car" />
                     </RadioButton>
 
                     <!--Budget button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" Command="{Binding BudgetHistory}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="Money" />
                     </RadioButton>
                     
                     <!--History button-->
-                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}">
+                    <RadioButton Style="{StaticResource sMenuItem_RadioButton}" Command="{Binding CarHistory}">
                         <fa:ImageAwesome Style="{StaticResource sRadioIcon}" Icon="History" />
                     </RadioButton>
 
 
                 </StackPanel>
 
-                <Button Style="{StaticResource sCircleButton}" VerticalAlignment="Bottom">
+                <Button Style="{StaticResource sCircleButton}" VerticalAlignment="Bottom" Command="{Binding Exit}">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="SignOut" />
                 </Button>
             </DockPanel>
@@ -50,17 +50,14 @@
         <!--#endregion-->
 
         <!--#region Pages-->
-        <Grid Grid.Column="1" Background="{StaticResource cBackground}">
+        <Frame x:Name="CustomerFrame" Grid.Column="1" Background="{StaticResource cBackground}" NavigationUIVisibility="Hidden">
 
-        </Grid>
+        </Frame>
         <!--#endregion-->
 
         <!--#region Profile's info-->
         <Border Grid.Column="2" CornerRadius="0 30 30 0" Background="AliceBlue">
-            <StackPanel Margin="0 40">
-
-                <!--Username-->
-            </StackPanel>
+            <Frame />
         </Border>
         <!--#endregion-->
 

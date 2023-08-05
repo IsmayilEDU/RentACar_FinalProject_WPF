@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace RentACar_FinalProject.Views.Customer.Pages
 {
     /// <summary>
-    /// Interaction logic for CarHistory.xaml
+    /// Interaction logic for CarHistoryPage.xaml
     /// </summary>
-    public partial class CarHistory : Page
+    public partial class CarHistoryPage : Page
     {
-        public CarHistory()
+        public CarHistoryPage()
         {
             InitializeComponent();
         }

@@ -110,7 +110,6 @@ C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalPro
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\Styles\Window\sVertical_Window.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.g.cs
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.g.cs
-C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\CarHistory.g.cs
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Windows\CustomerView.g.cs
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Windows\RentCarView.g.cs
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.g.cs
@@ -130,7 +129,6 @@ C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalPro
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\App.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\ProgramLogo.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Templates\UserControls\TextBoxWithPlaceHolder.baml
-C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\CarHistory.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Windows\CustomerView.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Windows\RentCarView.baml
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Login\LoginView.baml
@@ -157,3 +155,7 @@ C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalPro
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\bin\Debug\net6.0-windows\RentACar_FinalProject.pdb
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\RentACar_FinalProject.genruntimeconfig.cache
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\ref\RentACar_FinalProject.dll
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\AllCarsPage.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\CarHistoryPage.g.cs
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\AllCarsPage.baml
+C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\obj\Debug\net6.0-windows\Views\Customer\Pages\CarHistoryPage.baml

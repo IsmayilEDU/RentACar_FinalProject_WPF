@@ -13,7 +13,10 @@
     <Compile Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Customer\Pages\CarHistory.xaml.cs">
+    <Compile Update="Views\Customer\Pages\AllCarsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Customer\Pages\CarHistoryPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Customer\Windows\CustomerView.xaml.cs">
@@ -99,7 +102,10 @@
     <Page Update="Templates\UserControls\TextBoxWithPlaceHolder.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Customer\Pages\CarHistory.xaml">
+    <Page Update="Views\Customer\Pages\AllCarsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Customer\Pages\CarHistoryPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Customer\Windows\CustomerView.xaml">

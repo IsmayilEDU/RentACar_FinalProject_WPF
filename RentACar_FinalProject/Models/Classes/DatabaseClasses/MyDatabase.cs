@@ -15,7 +15,7 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
         public static ObservableCollection<Customer> Customers { get; set; }
 
         public static ObservableCollection<Location> Locations { get; set; }
-        public static ObservableCollection<Car> Cars { get; set; }
+        public static ObservableCollection<Car> AllCars { get; set; } = new ObservableCollection<Car>();
 
         public static Location GetRandomLocation()
         {
@@ -74,6 +74,14 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
             MyDatabase.Owners[0].OperationsOfBudget.Add(new BudgetOperation("Temir", 80, true));
             MyDatabase.Owners[0].OperationsOfBudget.Add(new BudgetOperation("Balansin artirilmasi", 100, false));
 
+            foreach (var owner in MyDatabase.Owners)
+            {
+                foreach (var car in owner.Cars)
+                {
+                    MyDatabase.AllCars.Add(car);
+                }
+            }
+
             ObservableCollection<Car> cars1 = new ObservableCollection<Car>()
             {
 
@@ -104,6 +112,9 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
                                 ),historyOfCars
                                 )
                         };
+
+            MyDatabase.Customers[0].OperationsOfBudget.Add(new BudgetOperation("Mashin kirayesi", 100, true));
+            MyDatabase.Customers[0].OperationsOfBudget.Add(new BudgetOperation("Balansin artirilmasi", 90, true));
 
         }
     }
