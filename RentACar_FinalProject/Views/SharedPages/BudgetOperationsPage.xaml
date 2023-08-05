@@ -8,7 +8,15 @@
       Style="{StaticResource sPage}"
       >
 
-    <Grid>
-        
-    </Grid>
+ 
+    <ListView ItemsSource="{Binding SelectedUser.OperationsOfBudget}"  BorderThickness="0" >
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="About" Width="185" DisplayMemberBinding="{Binding About}"/>
+                <GridViewColumn Header="IsExpense" Width="185" DisplayMemberBinding="{Binding IsExpense}"/>
+                <GridViewColumn Header="Amount" Width="185" DisplayMemberBinding="{Binding Amount}"/>
+                <GridViewColumn Header="DateOfOccurrence" Width="185" DisplayMemberBinding="{Binding DateOfOccurrence}"/>
+            </GridView>
+        </ListView.View>
+    </ListView>
 </Page>

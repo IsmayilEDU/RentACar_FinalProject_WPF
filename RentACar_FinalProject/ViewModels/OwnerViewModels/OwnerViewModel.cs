@@ -60,7 +60,7 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
         }
         public void budgetHistory()
         {
-            _OwnerFrame.DataContext = new BudgetOperationsPage();
+            _OwnerFrame.Navigate(new BudgetOperationsPage(SelectedOwner));
         }
 
         private void exit()

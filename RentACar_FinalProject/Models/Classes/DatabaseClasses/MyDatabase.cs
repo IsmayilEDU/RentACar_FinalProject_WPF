@@ -59,14 +59,7 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
 
 
 
-            ObservableCollection<BudgetOperation> budgetOperations = new ObservableCollection<BudgetOperation>()
-            {
-                new BudgetOperation("Temir", 50, true),
-                new BudgetOperation("Icare", 60, false),
-                new BudgetOperation("Icare", 120, false),
-                new BudgetOperation("Temir", 120, true),
-                new BudgetOperation("Temir", 40, true),
-            };
+            
 
 
 
@@ -75,8 +68,11 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
                 new Owner("ismayil", "ismayil",
                             new BankCard("Unibank","1234567891234567",
                                 new DateTime(2025,1,1),
-                                "987",500),cars,budgetOperations)
+                                "987",500),cars)
             };
+
+            MyDatabase.Owners[0].OperationsOfBudget.Add(new BudgetOperation("Temir", 80, true));
+            MyDatabase.Owners[0].OperationsOfBudget.Add(new BudgetOperation("Balansin artirilmasi", 100, false));
 
             ObservableCollection<Car> cars1 = new ObservableCollection<Car>()
             {
@@ -97,15 +93,6 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
                 historyOfCars.Add(new CarHistory(car));
             }
 
-            ObservableCollection<BudgetOperation> operationsOfBudgets = new ObservableCollection<BudgetOperation>()
-                        {
-                            new BudgetOperation("Arenda",50, true),
-                            new BudgetOperation("Blanasin artirilmasi",100, false),
-                            new BudgetOperation("Arenda",50, true),
-                            new BudgetOperation("Blanasin artirilmasi",200, false),
-                        };
-
-
 
             MyDatabase.Customers = new ObservableCollection<Customer>()
                         {
@@ -114,7 +101,7 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
                                     new DateTime(2025,2,2),
                                     "867",
                                     1000
-                                ),historyOfCars,operationsOfBudgets
+                                ),historyOfCars
                                 )
                         };
 

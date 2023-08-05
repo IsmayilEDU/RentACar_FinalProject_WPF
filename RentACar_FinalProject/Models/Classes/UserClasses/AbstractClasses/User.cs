@@ -1,8 +1,10 @@
 ﻿using RentACar_FinalProject.Functions;
+using RentACar_FinalProject.Models.Classes.OperationClasses;
 using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.Models.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,6 +58,8 @@ namespace RentACar_FinalProject.Models.Classes.AbstractClasses
         // BankCard of user
         public BankCard Card { get; set; }
 
+        public ObservableCollection<BudgetOperation> OperationsOfBudget { get; set; }
+
         #endregion
 
         #region Operations
@@ -65,6 +69,7 @@ namespace RentACar_FinalProject.Models.Classes.AbstractClasses
             Username = username;
             Password = password;
             Card = card;
+            OperationsOfBudget = new();
         }
 
         #endregion

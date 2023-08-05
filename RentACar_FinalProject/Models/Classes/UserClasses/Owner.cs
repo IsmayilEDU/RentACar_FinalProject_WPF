@@ -20,13 +20,12 @@ namespace RentACar_FinalProject.Models.Classes.UserClasses
         public ObservableCollection<Car> RentalCars { get; set; } = new ObservableCollection<Car>();
 
         //  Operations of budget
-        public ObservableCollection<BudgetOperation> OperationsOfBudget { get; set; }
         #endregion
 
         #region Operations
 
         public Owner( string username, string password, BankCard card,
-            ObservableCollection<Car> cars, ObservableCollection<BudgetOperation> operationsOfBudget)
+            ObservableCollection<Car> cars)
             : base(username, password, card)
         {
             Cars = cars;
@@ -37,10 +36,10 @@ namespace RentACar_FinalProject.Models.Classes.UserClasses
                     RentalCars.Add(car);
                 }
             }
-            OperationsOfBudget = operationsOfBudget;
+            
         }
         
-        public Owner( string username, string password, BankCard card)
+        public Owner( string username, string password, BankCard card )
             : base(username, password, card) { }
         #endregion
 

@@ -18,19 +18,17 @@ namespace RentACar_FinalProject.Models.Classes.UserClasses
         //  History of rent cars
         public ObservableCollection<CarHistory> HistoryOfCars { get; set; }
 
-        //  History of rent cars
-        public ObservableCollection<BudgetOperation> OperationsOfBudget { get; set; }
+        
 
         #endregion
 
         #region Operations
 
         public Customer(string username, string password, BankCard card,
-            ObservableCollection<CarHistory> historyOfCars, ObservableCollection<BudgetOperation> operationsOfBudget)
+            ObservableCollection<CarHistory> historyOfCars)
             : base(username, password, card)
         {
             HistoryOfCars = historyOfCars;
-            OperationsOfBudget = operationsOfBudget;
         }
 
         public Customer(string username, string password, BankCard card)
