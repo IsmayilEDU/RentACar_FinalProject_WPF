@@ -6,7 +6,7 @@
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:local="clr-namespace:RentACar_FinalProject.Views.Customer.Windows"
         mc:Ignorable="d"
-        Style="{StaticResource sHorizontal_Window}" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Style="{StaticResource sHorizontal_Window}" WindowStartupLocation="CenterScreen" >
     <Grid>
 
         <!--#region Columns-->
@@ -57,7 +57,7 @@
 
         <!--#region Profile's info-->
         <Border Grid.Column="2" CornerRadius="0 30 30 0" Background="AliceBlue">
-            <Frame />
+            <Frame x:Name="ProfileInfoFrame"/>
         </Border>
         <!--#endregion-->
 

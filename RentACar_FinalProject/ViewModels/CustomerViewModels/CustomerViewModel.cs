@@ -63,6 +63,7 @@ namespace RentACar_FinalProject.ViewModels.CustomerViewModels
         }
         public void carHistory()
         {
+            _CustomerFrame.Navigate(new Views.Customer.Pages.CarHistoryPage(SelectedCustomer.HistoryOfCars));
         }
 
         private void exit()

@@ -115,6 +115,7 @@ namespace RentACar_FinalProject.Models.Classes.DatabaseClasses
 
             MyDatabase.Customers[0].OperationsOfBudget.Add(new BudgetOperation("Mashin kirayesi", 100, true));
             MyDatabase.Customers[0].OperationsOfBudget.Add(new BudgetOperation("Balansin artirilmasi", 90, true));
+            
 
         }
     }

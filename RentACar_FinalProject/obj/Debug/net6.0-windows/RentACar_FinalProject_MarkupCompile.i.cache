@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Ismayil\PROJECTS\StepIT\5.Desktop\WPF\RentACar_FinalProject\RentACar_FinalProject_WPF\RentACar_FinalProject\App.xaml
 33289633264
 
-43-1025828543
+45962664600
 200445147498
 Templates\StaticVariables\Colors.xaml;Templates\StaticVariables\Fonts.xaml;Templates\Styles\Button\ButtonWithIcon\sButtonText.xaml;Templates\Styles\Button\ButtonWithIcon\sCircleButton.xaml;Templates\Styles\Button\ButtonWithIcon\sIcon.xaml;Templates\Styles\Button\ButtonWithIcon\sRectangleButton.xaml;Templates\Styles\Button\sForBack_Button.xaml;Templates\Styles\Label\sProgramName_Label.xaml;Templates\Styles\Page\sPage.xaml;Templates\Styles\RadioButton\sMenuItem_RadioButton.xaml;Templates\Styles\RadioButton\sRadioButton.xaml;Templates\Styles\TextBlock\sMenuName_TextBlock.xaml;Templates\Styles\TextBlock\sProperty_TextBlock.xaml;Templates\Styles\TextBlock\sTitleOfTextBox_TextBlock.xaml;Templates\Styles\TextBlock\sValue_TextBlock.xaml;Templates\Styles\Window\sHorizontal_Window.xaml;Templates\Styles\Window\sVertical_Window.xaml;Templates\UserControls\ProgramLogo.xaml;Templates\UserControls\TextBoxWithPlaceHolder.xaml;Views\Customer\Pages\AllCarsPage.xaml;Views\Customer\Pages\CarHistoryPage.xaml;Views\Customer\Windows\CustomerView.xaml;Views\Customer\Windows\RentCarView.xaml;Views\Login\LoginView.xaml;Views\Owner\Pages\AllCarsPage.xaml;Views\Owner\Pages\BusyCarsPage.xaml;Views\Owner\Windows\AddCarView.xaml;Views\Owner\Windows\OwnerView.xaml;Views\Owner\Windows\UpdateCarView.xaml;Views\Register\RegisterView.xaml;Views\SharedPages\BudgetOperationsPage.xaml;Views\SharedPages\ProfileInfoPage.xaml;Views\SharedWindows\AddBalanceView.xaml;
 
-True
+False
 

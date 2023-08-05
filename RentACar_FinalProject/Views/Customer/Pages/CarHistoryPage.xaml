@@ -5,10 +5,16 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:RentACar_FinalProject.Views.Customer.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="CarHistoryPage">
+      Style="{StaticResource sPage}">
 
-    <Grid>
-        
-    </Grid>
+    <ListView ItemsSource="{Binding CarHistories}"  BorderThickness="0" >
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="CarID" Width="185" DisplayMemberBinding="{Binding CarID}"/>
+                <GridViewColumn Header="Make" Width="185" DisplayMemberBinding="{Binding Make}"/>
+                <GridViewColumn Header="Model" Width="185" DisplayMemberBinding="{Binding Model}"/>
+                <GridViewColumn Header="RentDayCount" Width="185" DisplayMemberBinding="{Binding RentDayCount}"/>
+            </GridView>
+        </ListView.View>
+    </ListView>
 </Page>

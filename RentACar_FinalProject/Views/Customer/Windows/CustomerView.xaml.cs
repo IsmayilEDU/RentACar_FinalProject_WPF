@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using RentACar_FinalProject.Views.SharedPages;
 
 namespace RentACar_FinalProject.Views.Customer.Windows
 {
@@ -26,13 +27,12 @@ namespace RentACar_FinalProject.Views.Customer.Windows
         {
             InitializeComponent();
             DataContext = new ViewModels.CustomerViewModels.CustomerViewModel(CustomerFrame, SelectedCustomer);
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
             var AllAvailableCarsList = MyDatabase.AllCars.Where((car) => car.IsAvaible == true).ToList();
             ObservableCollection<Car> AllAvailableCars = new(AllAvailableCarsList);
             CustomerFrame.Navigate(new Views.Customer.Pages.AllCarsPage());
+            ProfileInfoFrame.Navigate(new ProfileInfoPage(SelectedCustomer));
         }
+
+        
     }
 }
