@@ -112,7 +112,7 @@ namespace RentACar_FinalProject.ViewModels
                     }
 
                     Application.Current.MainWindow.Hide();
-                    CustomerView customerView = new();
+                    CustomerView customerView = new(SearchedCustomer);
                     Application.Current.MainWindow = customerView;
                     customerView.ShowDialog();
                 }

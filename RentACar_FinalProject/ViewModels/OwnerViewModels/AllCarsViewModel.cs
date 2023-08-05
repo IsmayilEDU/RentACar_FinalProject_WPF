@@ -1,4 +1,7 @@
-﻿using RentACar_FinalProject.Models.Classes;
+﻿using GalaSoft.MvvmLight.Command;
+using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.Models.Classes.UserClasses;
+using RentACar_FinalProject.Views.Owner.Windows;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,6 +10,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 {
@@ -15,7 +19,7 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
         #region Fields
 
         //  All Cars
-        public ObservableCollection<Car> AllCars { get; set; }
+        public Owner SelectedOwner { get; set; }
 
         //  Selected Car
         private Car selectedCar;
@@ -31,15 +35,45 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 
         #endregion
 
+        #region Commands
+
+        public RelayCommand AddCar { get; set; }
+        public RelayCommand UpdateCar { get; set; }
+        public RelayCommand DeleteCar { get; set; }
+        #endregion
+
         #region Operations
 
-        public AllCarsViewModel(ObservableCollection<Car> BusyCars)
+        public AllCarsViewModel(Owner selectedOwner)
         {
-            this.AllCars = BusyCars;
-            SelectedCar = this.AllCars[0];
+            SelectedOwner = selectedOwner;
+            SelectedCar = selectedOwner.Cars[0];
+            AddCar = new RelayCommand(addCar);
+            UpdateCar = new RelayCommand(updateCar);
+            DeleteCar = new RelayCommand(deleteCar);
         }
 
+        #endregion
 
+        #region Functions of commands
+
+        public void addCar()
+        {
+            Application.Current.MainWindow.Hide();
+            AddCarView addCarView = new(SelectedOwner);
+            Application.Current.MainWindow = addCarView;
+            addCarView.Show();
+        }
+
+        public void updateCar()
+        {
+
+        }
+
+        public void deleteCar()
+        {
+
+        }
         #endregion
 
         #region PropertyChanged

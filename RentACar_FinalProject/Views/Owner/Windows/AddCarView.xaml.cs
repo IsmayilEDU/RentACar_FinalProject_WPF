@@ -1,5 +1,8 @@
-﻿using System;
+﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.ViewModels.OwnerViewModels;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +22,10 @@ namespace RentACar_FinalProject.Views.Owner.Windows
     /// </summary>
     public partial class AddCarView : Window
     {
-        public AddCarView()
+        public AddCarView(Models.Classes.UserClasses.Owner SelectedOwner)
         {
             InitializeComponent();
+            DataContext = new AddCarViewModel(InputMake, InputModel, InputYear, InputAmount, SelectedOwner);
         }
     }
 }

@@ -2,6 +2,7 @@
 using RentACar_FinalProject.Models.Classes.AbstractClasses;
 using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.Templates.UserControls;
+using RentACar_FinalProject.Views.Customer.Windows;
 using RentACar_FinalProject.Views.Owner.Windows;
 using System;
 using System.Collections.Generic;
@@ -35,9 +36,18 @@ namespace RentACar_FinalProject.ViewModels.SharedPagesViewModels
                     SelectedUser.Card.Balance += inputAmount;
 
                     Application.Current.MainWindow.Hide();
-                    OwnerView ownerView = new(SelectedUser as Owner);
-                    Application.Current.MainWindow = ownerView;
-                    ownerView.Show();
+                    if (SelectedUser is Owner owner)
+                    {
+                        OwnerView ownerView = new(owner);
+                        Application.Current.MainWindow = ownerView;
+                        ownerView.Show();
+                    }
+                    else if (SelectedUser is Customer customer)
+                    {
+                        CustomerView customerView = new(customer);
+                        Application.Current.MainWindow = customerView;
+                        customerView.Show();
+                    }
                 }
                 else
                 {

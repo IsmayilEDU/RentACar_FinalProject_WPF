@@ -19,7 +19,7 @@ namespace RentACar_FinalProject.Views.Customer.Windows
     /// </summary>
     public partial class CustomerView : Window
     {
-        public CustomerView()
+        public CustomerView(Models.Classes.UserClasses.Customer SelectedUser)
         {
             InitializeComponent();
         }

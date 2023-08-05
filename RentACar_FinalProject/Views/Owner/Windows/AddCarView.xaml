@@ -26,25 +26,25 @@
 
             <StackPanel Grid.Row="1">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Make"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter name of new car"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputMake" PlaceHolder="Please enter name of new car"/>
             </StackPanel>
 
             <StackPanel Grid.Row="2">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Model"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter model of new car"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputModel" PlaceHolder="Please enter model of new car"/>
             </StackPanel>
 
             <StackPanel Grid.Row="3">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Year"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter year of new car"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputYear" PlaceHolder="Please enter year of new car"/>
             </StackPanel>
 
             <StackPanel Grid.Row="4">
                 <TextBlock Style="{StaticResource sTitleOfTextBox_TextBlock}" Text="Amount of day"/>
-                <usercontrols:TextBoxWithPlaceHolder PlaceHolder="Please enter amount of day of new car"/>
+                <usercontrols:TextBoxWithPlaceHolder x:Name="InputAmount" PlaceHolder="Please enter amount of day of new car"/>
             </StackPanel>
 
-            <Button Grid.Row="5" Style="{StaticResource sRectangleButton}">
+            <Button Grid.Row="5" Style="{StaticResource sRectangleButton}" Command="{Binding AddCar}">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Plus"/>
                     <TextBlock Style="{StaticResource sButtonText}" Text="Add car" />

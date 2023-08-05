@@ -16,7 +16,7 @@
         </Grid.RowDefinitions>
 
         <ListView Grid.Row="0" SelectionChanged="AllCarsList_SelectionChanged" Loaded="AllCarsList_Loaded" 
-                  ItemsSource="{Binding AllCars}" x:Name="AllCarsList" BorderThickness="0" >
+                  ItemsSource="{Binding SelectedOwner.Cars}" x:Name="AllCarsList" BorderThickness="0" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="ID" Width="185" DisplayMemberBinding="{Binding ID}"/>
@@ -30,7 +30,7 @@
         <!--#region Buttons for operations-->
         <StackPanel Orientation="Horizontal" Grid.Row="1">
 
-            <Button Style="{StaticResource sRectangleButton}" Margin="10">
+            <Button Style="{StaticResource sRectangleButton}" Margin="10" Command="{Binding AddCar}">
                 <StackPanel Orientation="Horizontal">
                     <fa:ImageAwesome Style="{StaticResource sIcon}" Icon="Plus" />
                     <TextBlock Style="{StaticResource sButtonText}" Text="Add car" />

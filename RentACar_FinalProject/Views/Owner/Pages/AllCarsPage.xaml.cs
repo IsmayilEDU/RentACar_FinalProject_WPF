@@ -1,4 +1,5 @@
 ﻿using RentACar_FinalProject.Models.Classes;
+using RentACar_FinalProject.Models.Classes.UserClasses;
 using RentACar_FinalProject.ViewModels.OwnerViewModels;
 using System;
 using System.Collections.Generic;
@@ -24,10 +25,10 @@ namespace RentACar_FinalProject.Views.Owner.Pages
     public partial class AllCarsPage : Page
     {
         AllCarsViewModel allCarsViewModel;
-        public AllCarsPage(ObservableCollection<Car> allCars)
+        public AllCarsPage(Models.Classes.UserClasses.Owner selectedOwner)
         {
             InitializeComponent();
-            allCarsViewModel = new AllCarsViewModel(allCars);
+            allCarsViewModel = new AllCarsViewModel(selectedOwner);
             DataContext = allCarsViewModel;
         }
 

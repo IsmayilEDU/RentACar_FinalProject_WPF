@@ -49,16 +49,16 @@ namespace RentACar_FinalProject.ViewModels.OwnerViewModels
 
         #region Functions of commands
 
-        private void busyCars()
+        public void busyCars()
         {
             _OwnerFrame.Navigate(new BusyCarsPage(SelectedOwner.Cars));
 
         }
-        private void allCars()
+        public void allCars()
         {
-            _OwnerFrame.Navigate(new AllCarsPage(SelectedOwner.Cars));
+            _OwnerFrame.Navigate(new AllCarsPage(SelectedOwner));
         }
-        private void budgetHistory()
+        public void budgetHistory()
         {
             _OwnerFrame.DataContext = new BudgetOperationsPage();
         }
