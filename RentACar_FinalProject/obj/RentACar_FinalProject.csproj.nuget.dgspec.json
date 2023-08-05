@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[4.7.0.9, )"
             },
+            "Microsoft.Maps.MapControl.WPF": {
+              "target": "Package",
+              "version": "[1.0.0.3, )"
+            },
             "MvvmLightLibs": {
               "target": "Package",
               "version": "[5.4.1.1, )"

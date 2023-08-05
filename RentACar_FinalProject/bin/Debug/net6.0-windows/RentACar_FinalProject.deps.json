@@ -9,6 +9,7 @@
       "RentACar_FinalProject/1.0.0": {
         "dependencies": {
           "FontAwesome.WPF": "4.7.0.9",
+          "Microsoft.Maps.MapControl.WPF": "1.0.0.3",
           "MvvmLightLibs": "5.4.1.1"
         },
         "runtime": {
@@ -171,6 +172,14 @@
           "System.Runtime.Extensions": "4.1.0",
           "System.Runtime.InteropServices": "4.1.0",
           "System.Threading": "4.0.11"
+        }
+      },
+      "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+        "runtime": {
+          "lib/net40-Client/Microsoft.Maps.MapControl.WPF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.0"
+          }
         }
       },
       "Microsoft.NETCore.App/1.0.5": {
@@ -1450,6 +1459,13 @@
       "sha512": "sha512-17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "path": "microsoft.csharp/4.0.1",
       "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
+    },
+    "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P5Xys9PH/NIZY8qPASd03VOrZ/eXyS1hSoruR7oM+Otn98DkvUD1LwO8m9Aro4/5jCU1BgRmOTJrIQm5y9UHnQ==",
+      "path": "microsoft.maps.mapcontrol.wpf/1.0.0.3",
+      "hashPath": "microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512"
     },
     "Microsoft.NETCore.App/1.0.5": {
       "type": "package",

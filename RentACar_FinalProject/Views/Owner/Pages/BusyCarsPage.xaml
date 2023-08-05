@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:RentACar_FinalProject.Views.Owner.Pages"
+      xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
       mc:Ignorable="d" 
       Style="{StaticResource sPage}" Background="White">
 
@@ -124,9 +125,9 @@
             <!--#endregion-->
 
             <!--#region Map-->
-            <Grid Grid.Row="2">
-
-            </Grid>
+            <map:Map Grid.Row="2" Center="40.1431, 47.5769" ZoomLevel="6" CredentialsProvider="OW3MAkbZOrmKAQCg7Q5W~b7d6_7jSTuTPFLK3ExvIVQ~Ar5WbcR9NFJ6dlHZGPHBjIqalmx4WvDfazpHZ3i3utECNRza6Lf-efqpkWle5wi-">
+                <map:Pushpin map:MapLayer.Position="{Binding SelectedBusyCar.Location}"/>
+            </map:Map>
             <!--#endregion-->
 
            

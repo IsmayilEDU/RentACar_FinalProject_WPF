@@ -73,6 +73,17 @@ namespace RentACar_FinalProject.Models.Classes
         //  Location
         public Location location { get; set; }
 
+        private string _location;
+
+        public string Location
+        {
+            get { return _location; }
+            set { _location = value; }
+        }
+
+
+
+
         //  Amount of total rent
         private double _RentDayAmount;
         public double RentDayAmount
@@ -126,6 +137,7 @@ namespace RentACar_FinalProject.Models.Classes
                 IsAvaible = false;
                 CustomerName = customerName;
                 location = MyDatabase.GetRandomLocation();
+                Location = location.Longitude.ToString()+ ", " + location.Latitude.ToString();
             }
         }
 
